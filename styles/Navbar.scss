@@ -1,0 +1,19 @@
+@import '../styles/colors';
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: $secondary_dark;
+    color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid $tier;
+    .navbar-menu{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
